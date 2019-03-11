@@ -1,0 +1,93 @@
+body, html {
+    font-size: 16px;
+    max-width: 1020px;
+    font-family: 'Lato-Regular', sans-serif;
+    background: rgb(255, 255, 255);
+    margin: 0 auto;
+}
+
+header {
+    background: #F0F8FF;
+    border-bottom: 2px solid rgb(155, 164, 170);
+    color: rgb(13, 5, 92);
+    padding: 0 5% 0; 
+    }
+
+h1 {
+    margin: 0%;
+}
+
+.link {
+    font-style: italic;
+    font-size: 90%;
+    color: #343434;
+    text-decoration: none;
+}
+
+#person {
+    width: 142px;
+    height: 150px;
+    background: url(./images/Person.JPG);
+    -moz-border-radius: 60px;
+    -webkit-border-radius: 60px;
+    border-radius: 60px;
+    position: relative;
+    top: 50%;
+    left: 32%;
+    margin: 2%;
+}
+.icon {
+    display: inline-block;
+    min-height: 12px;
+    min-width: 18px;
+}
+
+.map-icon {
+    background: url('./images/location@1X.png') no-repeat;
+}
+
+.tel-icon {
+    background: url('./images/phone@1X.png') no-repeat;
+}
+
+.mail-icon {
+    background: url('./images/mail@1X.png') no-repeat;
+}
+
+.about {
+    padding-left: 20px; 
+}
+
+p {
+    padding-left: 20px;
+    margin: 1%;  
+}
+
+table {
+    margin-left: 25px;
+    border: 1px solid black;
+}
+
+td {
+    border: 1px solid black;
+}
+
+.link-education {
+    text-decoration: none;
+    color:#000080; 
+}
+ 
+.link-education:hover {
+    color: #800000; /* Цвет ссылки при наведении на нее курсора мыши */  
+    text-decoration: underline; /* Добавляем подчеркивание */
+}
+
+footer {
+    background: #F0F8FF;
+    color: #343434;
+    font-weight: bold;
+    min-height: 43px;
+    border-top: 2px solid rgb(155, 164, 170);
+    font-size: 70%;
+    padding-left: 30px;
+}
